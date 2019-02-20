@@ -34,13 +34,13 @@ class ImageMaker {
         // those up for future use, too.
 
         // TODO: Select the `input` element with the `name` attribute "backgroundImage"
-        this.backgroundInput = document.forms[0].querySelector('select[name="backgroundImage"]');
+        this.backgroundInput = document.forms[0].querySelector('select[name="backgroundImage]"]');
 
         // TODO: Select the `input` element with the `name` attribute "topText"
-        this.topTextInput = document.forms[0].querySelector('input[name="topText"');
+        this.topTextInput = document.forms[0].querySelector('input[name="topText]"');
 
         // TODO: Select the `input` element with the `name` attribute "bottomText"
-        this.bottomTextInput = document.forms[0].querySelector('input[name="bottomText"');
+        this.bottomTextInput = document.forms[0].querySelector('input[name="bottomText]"');
 
         // NOTE: If you add additional form fields to modify other aspects of
         // the image, then you will need to make attributes for each of those
